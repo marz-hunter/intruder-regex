@@ -1,0 +1,1 @@
+assetfinder -subs-only domen.com | httprobe -c 50 -t 3000 | aquatone -chrome-path /snap/bin/chromium -threads 8
