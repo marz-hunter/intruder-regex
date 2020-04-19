@@ -30,3 +30,40 @@ favicon.ico             [Status: 200, Size: 42, Words: 1, Lines: 1]
 manifest.json           [Status: 200, Size: 393, Words: 97, Lines: 15]
 robots.txt              [Status: 200, Size: 153, Words: 10, Lines: 12]
 search                  [Status: 200, Size: 40316, Words: 3812, Lines: 315]
+
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v1.1.0-git
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : https://sub.site.com/FUZZ
+ :: Wordlist         : FUZZ: wordlist/dicc.txt
+ :: Header           : X-Forwarded-For: 127.0.0.1
+ :: Header           : User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+ :: Extensions       : js php bak txt asp aspx jsp html zip jar sql json old gz shtml log swp yaml yml config save rsa ppk
+ :: Output file      : dir.txt
+ :: File format      : json
+ :: Follow redirects : false
+ :: Calibration      : true
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200
+ :: Filter           : Response size: 18673
+ :: Filter           : Response words: 1450
+ :: Filter           : Response lines: 84
+________________________________________________
+
+favicon.ico             [Status: 200, Size: 42, Words: 1, Lines: 1]
+manifest.json           [Status: 200, Size: 393, Words: 97, Lines: 15]
+manifest.json           [Status: 200, Size: 393, Words: 97, Lines: 15]
+robots.txt              [Status: 200, Size: 153, Words: 10, Lines: 12]
+search                  [Status: 200, Size: 40316, Words: 3812, Lines: 315]
+robots.txt              [Status: 200, Size: 153, Words: 10, Lines: 12]
+search                  [Status: 200, Size: 40316, Words: 3812, Lines: 315]
